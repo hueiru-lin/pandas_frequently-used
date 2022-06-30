@@ -1,2 +1,2 @@
 ### Drop rows from the dataframe based on conditions
-df[df.drop(list(df.filter(regex=condition)))]
+df[df.columns.drop(list(df.filter(regex=condition)))]
